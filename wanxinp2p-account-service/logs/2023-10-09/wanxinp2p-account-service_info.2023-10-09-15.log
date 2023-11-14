@@ -1,0 +1,442 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:14,086 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to account-service by app.id property from System Property
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:14,089 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:14,125 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:14,129 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:14,365 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,175 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,178 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,199 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,285 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,359 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,536 INFO [main][GenericScope.java:294] - BeanFactory id=a4097ca9-0ddd-3336-be31-019af031872d
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,558 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,579 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,591 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$5fed239f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,602 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,789 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,794 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$92ea9434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,799 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$4537564d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,801 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$4e3c3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,806 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,812 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,817 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$2719b36a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,823 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,825 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$74f631c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,860 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,861 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,864 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,866 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:15,879 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,591 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,592 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,639 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$375714a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,665 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,674 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,687 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$537117a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,968 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53030 (http)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,987 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:16,999 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,000 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,016 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\User\Downloads\mongodb-database-tools-windows-x86_64-100.5.2\mongodb-database-tools-windows-x86_64-100.5.2\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Tencent\??web?????\dll;D:\work\mysql_community_server\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\work\java\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\lib;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Java\jdk1.8\bin;D:\work\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;D:\redis\;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python310\;D:\work\anaconda;D:\work\anaconda\Library\mingw-w64\bin;D:\work\anaconda\Library\usr\bin;D:\work\anaconda\Library\bin;D:\work\anaconda\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\.dotnet\tools;D:\intellij_community\IntelliJ IDEA Community Edition 2022.2.5\bin;;C:\Program Files\PostgreSQL\15\bin;;.]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,119 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,120 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2743 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,283 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,284 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,295 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2156b0a2
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:17,397 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:18,084 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:18,755 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:18,755 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:19,752 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:19,828 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:19,844 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:19,844 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:20,206 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,223 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,260 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,396 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,397 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,541 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,542 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,813 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,910 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,911 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,911 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,911 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,911 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,911 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:21,912 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,214 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,216 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,219 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,224 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1696834882222 with initial instances count: 0
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,227 INFO [main][EurekaServiceRegistry.java:42] - Registering application ACCOUNT-SERVICE with eureka with status UP
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,228 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1696834882228, current=UP, previous=STARTING]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,231 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.31.143:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,233 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,240 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,289 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,417 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.31.143:53030 - registration status: 204
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,447 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,468 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53030 (http) with context path '/account'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,468 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53030
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:22,471 INFO [main][StartupInfoLogger.java:59] - Started Wanxinp2pAccountServiceApplication in 9.348 seconds (JVM running for 13.739)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:48,447 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,222 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,223 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:01:52,287 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:02:18,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:02:18,634 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:02:48,454 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:02:48,640 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:18,458 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:18,660 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:26,971 INFO [http-nio-53030-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:26,972 INFO [http-nio-53030-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:26,983 INFO [http-nio-53030-exec-1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:48,456 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:03:48,657 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:04:18,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:04:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:04:48,456 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:04:48,642 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:05:18,447 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:05:18,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:05:48,458 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:05:48,659 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:05:50,667 ERROR [http-nio-53030-exec-6][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/account] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+java.lang.RuntimeException
+	at cn.itcast.wanxinp2p.account.service.SmsService.verifySmsCode(SmsService.java:31)
+	at cn.itcast.wanxinp2p.account.service.SmsService$$FastClassBySpringCGLIB$$c6099c70.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.account.service.SmsService$$EnhancerBySpringCGLIB$$be6899f7.verifySmsCode(<generated>)
+	at cn.itcast.wanxinp2p.account.service.SmsService$$FastClassBySpringCGLIB$$c6099c70.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.account.service.SmsService$$EnhancerBySpringCGLIB$$a83da35.verifySmsCode(<generated>)
+	at cn.itcast.wanxinp2p.account.service.AccountServiceImpl.checkMobile(AccountServiceImpl.java:24)
+	at cn.itcast.wanxinp2p.account.service.AccountServiceImpl$$FastClassBySpringCGLIB$$3c48975c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.account.service.AccountServiceImpl$$EnhancerBySpringCGLIB$$425af817.checkMobile(<generated>)
+	at cn.itcast.wanxinp2p.account.service.AccountServiceImpl$$FastClassBySpringCGLIB$$3c48975c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.account.service.AccountServiceImpl$$EnhancerBySpringCGLIB$$41d1511d.checkMobile(<generated>)
+	at cn.itcast.wanxinp2p.account.controller.AccountController.checkMobile(AccountController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:06:18,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:06:18,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:06:21,928 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:06:48,475 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:06:48,660 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:07:18,468 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:07:18,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:07:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:07:48,654 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:08:18,448 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:08:18,650 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:08:48,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:08:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:09:18,455 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:09:18,655 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:09:48,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:09:48,661 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:10:18,455 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:10:18,644 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:10:48,455 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:10:48,657 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:11:18,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:11:18,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:11:21,932 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:11:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:11:48,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:12:18,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:12:18,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:12:48,458 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:12:48,643 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:13:18,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:13:18,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:13:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:13:48,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:14:18,451 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:14:18,654 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:14:48,451 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:14:48,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:15:18,452 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:15:18,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:15:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:15:48,656 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:16:18,458 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:16:18,645 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:16:21,933 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:16:48,472 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:16:48,671 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:17:18,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:17:18,662 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:17:48,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:17:48,660 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:18:18,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:18:18,649 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:18:48,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:18:48,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:19:18,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:19:18,645 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:19:48,464 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:19:48,664 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:20:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:20:18,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:20:48,442 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:20:48,644 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:21:18,463 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:21:18,658 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:21:21,946 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:21:48,466 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:21:48,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:22:18,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:22:18,655 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:22:48,466 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:22:48,650 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:23:18,457 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:23:18,658 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:23:48,455 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:23:48,671 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:24:18,464 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:24:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:24:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:24:48,655 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:25:18,451 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:25:18,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:25:48,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:25:48,662 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:26:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:26:18,658 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:26:21,962 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:26:48,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:26:48,664 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:27:18,456 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:27:18,657 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:27:48,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:27:48,659 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:28:18,452 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:28:18,639 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:28:48,448 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:28:48,649 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:29:18,456 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:29:18,657 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:29:48,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:29:48,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:30:18,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:30:18,664 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:30:48,469 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:30:48,656 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:31:18,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:31:18,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:31:21,965 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:31:48,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:31:48,650 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:32:18,447 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:32:18,632 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:32:48,463 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:32:48,649 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:33:18,465 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:33:18,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:33:48,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:33:48,650 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:34:18,451 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:34:18,650 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:34:48,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:34:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:35:18,456 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:35:18,658 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:35:48,452 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:35:48,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:36:18,441 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:36:18,641 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:36:21,971 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:36:48,442 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:36:48,643 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:37:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:37:18,674 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:37:48,468 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:37:48,668 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:38:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:38:18,660 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:38:48,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:38:48,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:39:18,468 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:39:18,654 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:39:48,461 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:39:48,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:40:18,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:40:18,629 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:40:48,464 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:40:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:41:18,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:41:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:41:21,974 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:41:48,440 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:41:48,640 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:42:18,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:42:18,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:42:48,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:42:48,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:43:18,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:43:18,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:43:48,452 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:43:48,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:44:18,447 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:44:18,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:44:48,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:44:48,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:45:18,464 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:45:18,649 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:45:48,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:45:48,662 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:46:18,466 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:46:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:46:21,988 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:46:48,452 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:46:48,653 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:47:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:47:18,661 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:47:48,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:47:48,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:48:18,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:48:18,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:48:48,464 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:48:48,666 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:49:18,448 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:49:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:49:48,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:49:48,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:50:18,449 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:50:18,667 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:50:48,448 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:50:48,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:51:18,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:51:18,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:51:22,002 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:51:48,442 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:51:48,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:52:18,455 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:52:18,641 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:52:48,453 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:52:48,652 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:53:18,450 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:53:18,651 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:53:48,454 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:53:48,654 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:54:18,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:54:18,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:54:48,458 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:54:48,642 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:55:18,463 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:55:18,664 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:55:48,463 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:55:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:56:18,459 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:56:18,659 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:56:22,015 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:56:48,443 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:56:48,661 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:57:18,462 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:57:18,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:57:48,444 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:57:48,647 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:58:18,447 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:58:18,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:58:48,446 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:58:48,648 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:59:18,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:59:18,646 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:59:48,457 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2023-10-09 15:59:48,661 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

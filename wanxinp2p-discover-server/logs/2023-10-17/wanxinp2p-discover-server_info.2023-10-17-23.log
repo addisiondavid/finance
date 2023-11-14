@@ -1,0 +1,5 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-17 23:42:36,693 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5398910ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-17 23:48:19,029 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 332336ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-17 23:48:19,029 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=1, evictionLimit=1)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-17 23:48:19,030 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for UAA-SERVICE/uaa-service:192.168.1.8:53020
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-17 23:48:19,031 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance UAA-SERVICE/uaa-service:192.168.1.8:53020 (replication=false)

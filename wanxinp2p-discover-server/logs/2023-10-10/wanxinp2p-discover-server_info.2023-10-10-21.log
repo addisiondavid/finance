@@ -1,0 +1,197 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:44,676 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,168 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,340 INFO [main][GenericScope.java:294] - BeanFactory id=ce0ae3d0-3d18-3be0-bce5-5462ef49e4ca
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,407 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c9647949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,653 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53000 (http)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,672 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53000"]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,680 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,681 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,693 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\User\Downloads\mongodb-database-tools-windows-x86_64-100.5.2\mongodb-database-tools-windows-x86_64-100.5.2\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Tencent\??web?????\dll;D:\work\mysql_community_server\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\work\java\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\lib;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Java\jdk1.8\bin;D:\work\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;D:\redis\;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python310\;D:\work\anaconda;D:\work\anaconda\Library\mingw-w64\bin;D:\work\anaconda\Library\usr\bin;D:\work\anaconda\Library\bin;D:\work\anaconda\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\.dotnet\tools;D:\intellij_community\IntelliJ IDEA Community Edition 2022.2.5\bin;;C:\Program Files\PostgreSQL\15\bin;;.]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,769 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,770 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1083 ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,864 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,864 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:45,893 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@44d6353c
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:46,514 INFO [main][WebApplicationImpl.java:815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:46,556 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:46,556 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:46,802 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:46,803 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,007 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,007 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,128 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,690 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,713 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,713 INFO [main][DiscoveryClient.java:352] - Client configured to neither register nor query for data.
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,722 INFO [main][DiscoveryClient.java:365] - Discovery Client initialized at timestamp 1696945007720 with initial instances count: 0
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,760 INFO [main][DefaultEurekaServerContext.java:63] - Initializing ...
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:47,763 INFO [main][PeerEurekaNodes.java:188] - Adding new peer nodes [http://localhost:53000/eureka/]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,072 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,072 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,073 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,073 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,134 INFO [main][PeerEurekaNodes.java:110] - Replica node URL:  http://localhost:53000/eureka/
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,141 INFO [main][AbstractInstanceRegistry.java:151] - Finished initializing remote region registries. All known remote regions: []
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,142 INFO [main][DefaultEurekaServerContext.java:70] - Initialized
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,151 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,210 INFO [main][EurekaServiceRegistry.java:42] - Registering application HNRADIO-DISCOVERY with eureka with status UP
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,213 INFO [Thread-14][EurekaServerBootstrap.java:109] - Setting the eureka configuration..
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,214 INFO [Thread-14][EurekaServerBootstrap.java:114] - Eureka data center value eureka.datacenter is not set, defaulting to default
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,214 INFO [Thread-14][EurekaServerBootstrap.java:128] - Eureka environment value eureka.environment is not set, defaulting to test
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,226 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53000"]
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,227 INFO [Thread-14][EurekaServerBootstrap.java:184] - isAws returned false
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,227 INFO [Thread-14][EurekaServerBootstrap.java:152] - Initialized server context
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,227 INFO [Thread-14][PeerAwareInstanceRegistryImpl.java:241] - Got 1 instances from neighboring DS node
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,227 INFO [Thread-14][PeerAwareInstanceRegistryImpl.java:242] - Renew threshold is: 1
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,228 INFO [Thread-14][PeerAwareInstanceRegistryImpl.java:253] - Changing status to UP
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,234 INFO [Thread-14][EurekaServerInitializerConfiguration.java:72] - Started Eureka Server
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,247 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53000 (http) with context path ''
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,248 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53000
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:48,250 INFO [main][StartupInfoLogger.java:59] - Started DiscoveryServer in 4.598 seconds (JVM running for 15.662)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:36:58,232 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:08,246 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:18,255 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:28,269 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:31,855 INFO [http-nio-53000-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:31,856 INFO [http-nio-53000-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:31,863 INFO [http-nio-53000-exec-1][FrameworkServlet.java:546] - Completed initialization in 7 ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:32,125 INFO [http-nio-53000-exec-2][AbstractInstanceRegistry.java:266] - Registered instance ACCOUNT-SERVICE/account-service:192.168.1.8:53030 with status UP (replication=false)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:32,741 INFO [http-nio-53000-exec-3][AbstractInstanceRegistry.java:266] - Registered instance ACCOUNT-SERVICE/account-service:192.168.1.8:53030 with status UP (replication=true)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:38,283 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:48,284 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:37:58,293 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:08,302 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:18,304 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:28,319 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:38,332 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:48,343 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:38:58,352 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:08,365 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:18,377 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:28,391 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:38,401 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:48,409 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:39:58,417 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:08,418 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:18,430 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:28,445 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:38,459 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:48,461 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:40:58,475 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:08,480 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:18,489 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:28,491 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:38,499 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:48,508 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:41:58,514 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:08,528 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:18,528 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:28,542 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:38,547 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:48,549 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:42:58,563 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:08,564 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:18,578 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:28,584 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:38,600 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:48,614 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:43:58,629 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:08,631 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:18,632 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:28,634 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:38,640 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:48,655 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:44:58,669 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:08,672 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:18,683 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:28,684 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:38,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:48,707 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:45:58,723 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:08,731 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:18,744 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:28,748 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:38,757 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:48,759 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:46:58,762 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:08,763 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:18,773 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:28,780 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:38,792 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:48,801 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:47:58,805 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:08,812 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:18,817 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:28,821 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:38,830 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:48,831 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:48:58,833 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:08,848 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:18,863 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:28,866 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:38,873 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:48,887 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:49:58,894 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:08,897 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:18,905 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:28,916 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:38,925 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:48,927 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:50:58,933 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:08,937 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:18,951 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:28,954 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:38,960 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:48,148 INFO [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][PeerAwareInstanceRegistryImpl.java:539] - Current renewal threshold is : 0
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:48,974 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:51:58,983 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:08,991 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:19,003 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:29,012 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:39,026 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:49,035 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:52:59,048 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:09,060 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:19,069 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:29,081 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:39,095 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:49,106 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:53:59,117 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:09,130 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:19,134 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:29,149 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:39,155 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:49,170 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:54:59,172 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:09,186 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:19,194 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:29,197 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:39,205 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 7ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:43,829 INFO [http-nio-53000-exec-1][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:192.168.1.8:53050 with status UP (replication=false)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:44,357 INFO [http-nio-53000-exec-5][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:192.168.1.8:53050 with status UP (replication=true)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:49,216 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:55:59,225 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:09,230 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:19,242 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:29,263 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 21ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:39,263 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:49,270 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 6ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:56:59,270 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:09,275 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:19,280 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:29,289 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:39,290 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:49,303 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:57:59,308 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:09,317 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:19,317 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:29,318 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:39,321 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:49,330 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 8ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:58:59,339 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:09,351 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:19,365 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:29,367 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:39,378 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:49,393 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 15ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 21:59:59,396 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms

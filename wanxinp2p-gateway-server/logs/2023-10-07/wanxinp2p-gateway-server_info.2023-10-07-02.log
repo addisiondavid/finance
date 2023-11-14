@@ -1,0 +1,4 @@
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2023-10-07 02:57:47,837 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:850] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.86.1:53010 - Re-registering apps/GATEWAY-SERVER
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2023-10-07 02:57:47,837 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.86.1:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2023-10-07 02:57:47,851 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.86.1:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2023-10-07 02:58:44,701 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration

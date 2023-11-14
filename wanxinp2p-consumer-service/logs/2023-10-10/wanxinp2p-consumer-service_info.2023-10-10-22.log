@@ -1,0 +1,395 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:00,377 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to consumer-service by app.id property from System Property
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:00,380 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:00,407 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:00,411 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:09,759 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,106 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,109 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,141 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,249 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,334 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,586 INFO [main][GenericScope.java:294] - BeanFactory id=deb9f2d0-17b3-3a19-9d92-33aa52875082
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,610 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,625 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'cn.itcast.wanxinp2p.consumer.agent.AccountApiAgent' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,644 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,656 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$95930eb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,670 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,919 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,922 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$c8907f4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,928 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$7add4166] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,931 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$35f42755] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,936 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,939 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,945 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$5cbf9e83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,950 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,952 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$aa9c1cdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,992 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,993 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,996 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:11,998 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:12,015 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:12,917 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:12,920 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:12,978 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cfcffbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,007 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,018 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,034 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$891702b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,363 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53050 (http)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,380 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53050"]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,390 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,391 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,404 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\User\Downloads\mongodb-database-tools-windows-x86_64-100.5.2\mongodb-database-tools-windows-x86_64-100.5.2\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Tencent\??web?????\dll;D:\work\mysql_community_server\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\work\java\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\bin;D:\work\java\apache-tomcat-9.0.64-windows-x64\apache-tomcat-9.0.64\lib;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\Java\jdk1.8\bin;D:\work\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;D:\redis\;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python310\;D:\work\anaconda;D:\work\anaconda\Library\mingw-w64\bin;D:\work\anaconda\Library\usr\bin;D:\work\anaconda\Library\bin;D:\work\anaconda\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\.dotnet\tools;D:\intellij_community\IntelliJ IDEA Community Edition 2022.2.5\bin;;C:\Program Files\PostgreSQL\15\bin;;.]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,543 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,544 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 3762 ms
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,749 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,750 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,765 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7cd61380
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:13,973 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:14,854 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:15,083 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:15,084 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:16,818 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:16,893 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:16,908 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:16,908 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,032 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,752 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,783 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,853 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,854 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,969 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:17,969 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,155 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,280 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,281 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,281 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,281 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,281 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,281 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,282 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,424 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,426 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,428 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,431 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1696947738430 with initial instances count: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,433 INFO [main][EurekaServiceRegistry.java:42] - Registering application CONSUMER-SERVICE with eureka with status UP
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,433 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1696947738433, current=UP, previous=STARTING]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,435 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:192.168.1.8:53050: registering service...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,436 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,443 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,473 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,480 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:192.168.1.8:53050 - registration status: 204
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,578 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53050"]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,594 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53050 (http) with context path '/consumer'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,594 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53050
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:18,596 INFO [main][StartupInfoLogger.java:59] - Started ConsumerService in 19.172 seconds (JVM running for 23.367)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:44,710 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:22:44,975 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:08,563 INFO [http-nio-53050-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:08,563 INFO [http-nio-53050-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:08,575 INFO [http-nio-53050-exec-1][FrameworkServlet.java:546] - Completed initialization in 11 ms
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:08,837 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:08,988 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,011 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,122 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,162 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 1711749210158891009(Long), 8DB6D5830F8E4DC88669F997E28540F7(String), REQ_CD472B5B84B443458C01595ED372461A(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,166 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,335 INFO [http-nio-53050-exec-1][ChainedDynamicProperty.java:115] - Flipping property: account-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,357 INFO [http-nio-53050-exec-1][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-account-service
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,358 INFO [http-nio-53050-exec-1][BaseLoadBalancer.java:197] - Client: account-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=account-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,364 INFO [http-nio-53050-exec-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,368 INFO [http-nio-53050-exec-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client account-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=account-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@71c7b013
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:09,470 ERROR [http-nio-53050-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/consumer] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: account-service] with root cause
+com.netflix.client.ClientException: Load balancer does not have available server for client: account-service
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy170.register(Unknown Source)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl.register(ConsumerServiceImpl.java:58)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$FastClassBySpringCGLIB$$14583448.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$EnhancerBySpringCGLIB$$375fa919.register(<generated>)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$FastClassBySpringCGLIB$$14583448.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$EnhancerBySpringCGLIB$$1283c6e7.register(<generated>)
+	at cn.itcast.wanxinp2p.consumer.controller.ConsumerController.register(ConsumerController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:14,721 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:14,971 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,543 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,544 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,545 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,547 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,548 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1711749295785607170(Long), DB45A2551F784F5CA24A9F4DBE5CC5E7(String), REQ_17948E72D1CE42AF812E1F6169C16CAF(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,552 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:29,554 ERROR [http-nio-53050-exec-4][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/consumer] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: account-service] with root cause
+com.netflix.client.ClientException: Load balancer does not have available server for client: account-service
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy170.register(Unknown Source)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl.register(ConsumerServiceImpl.java:58)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$FastClassBySpringCGLIB$$14583448.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$EnhancerBySpringCGLIB$$375fa919.register(<generated>)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$FastClassBySpringCGLIB$$14583448.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.itcast.wanxinp2p.consumer.service.ConsumerServiceImpl$$EnhancerBySpringCGLIB$$1283c6e7.register(<generated>)
+	at cn.itcast.wanxinp2p.consumer.controller.ConsumerController.register(ConsumerController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:40,390 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: account-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:44,714 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:23:44,962 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,044 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,045 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,047 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,049 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,049 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1711749448919646210(Long), E518561BB8F542789B8562B48F32A52C(String), REQ_9EB2A1EBEE4048CE86FC3D02BA002E09(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:06,053 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:14,730 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:14,995 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,051 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,052 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,053 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,054 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,055 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 1711749541185945602(Long), 8B6A170056704F30BAD09EF09DB46CEB(String), REQ_9D654512E6624A6586A8B00C58966DBE(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,058 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,853 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,854 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,855 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,856 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,856 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1711749544533000194(Long), C58534B4E9F64A47B13BC0DE1D6E9F85(String), REQ_B9CBAA2E4FDA4EEF9B8D9CD48437EB85(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:28,861 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,505 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,LOAN_AMOUNT,STATUS,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,505 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,507 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 0
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,508 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: INSERT INTO consumer ( ID, USERNAME, USER_NO, IS_BIND_CARD ) VALUES ( ?, ?, ?, ? ) 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,509 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 1711749547288657921(Long), 86A00966E6554DAAA7055EDF702D1866(String), REQ_24B234E3554144CBA26A1B2A1C11623C(String), 0(Integer)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:29,512 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==    Updates: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:44,712 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:24:44,974 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:25:14,716 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:25:14,981 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:25:44,725 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:25:44,972 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:32,655 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 1 seconds. appId: consumer-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.1.8:8080/notifications/v2?cluster=DEFAULT&appId=consumer-service&ip=192.168.1.8&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A446%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A442%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A69%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A6%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A447%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A10%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A5%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A435%7D%5D, reason: Could not complete get operation [Cause: Read timed out]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:39,342 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:39,559 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:41,392 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:41,611 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:43,442 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:43,660 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:45,473 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:27:45,705 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:28:14,730 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:28:14,966 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:28:44,710 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:28:44,992 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:28:57,889 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:29:14,736 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-10 22:29:14,985 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

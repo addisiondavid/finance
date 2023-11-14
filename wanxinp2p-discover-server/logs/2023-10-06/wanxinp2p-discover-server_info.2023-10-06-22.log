@@ -1,0 +1,8 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:06,218 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 165041ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:16,228 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:16,228 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=1, evictionLimit=1)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:16,228 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for GATEWAY-SERVER/gateway-server:192.168.86.1:53010
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:16,229 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance GATEWAY-SERVER/gateway-server:192.168.86.1:53010 (replication=false)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:21,669 WARN [http-nio-53000-exec-7][AbstractInstanceRegistry.java:353] - DS: Registry: lease doesn't exist, registering resource: GATEWAY-SERVER - gateway-server:192.168.86.1:53010
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:21,669 WARN [http-nio-53000-exec-7][InstanceResource.java:116] - Not Found (Renew): GATEWAY-SERVER - gateway-server:192.168.86.1:53010
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-06 22:00:21,693 INFO [http-nio-53000-exec-10][AbstractInstanceRegistry.java:266] - Registered instance GATEWAY-SERVER/gateway-server:192.168.86.1:53010 with status UP (replication=false)

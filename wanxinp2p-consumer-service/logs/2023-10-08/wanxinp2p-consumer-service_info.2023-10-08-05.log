@@ -1,0 +1,2 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-08 05:23:54,467 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2023-10-08 05:23:54,467 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

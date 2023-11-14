@@ -1,0 +1,5 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 23:28:47,936 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3547655ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 23:28:57,948 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 23:28:57,948 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=1, evictionLimit=1)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 23:28:57,948 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for CONSUMER-SERVICE/consumer-service:192.168.1.8:53050
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2023-10-10 23:28:57,949 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance CONSUMER-SERVICE/consumer-service:192.168.1.8:53050 (replication=false)
